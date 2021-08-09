@@ -19,6 +19,7 @@
     "homepage": "https://github.com/abakarabdelsalam/Min-Facebook#readme",
     "dependencies": {
         "express": "^4.17.1",
+        "mongoose": "^5.13.5",
         "morgan": "^1.10.0",
         "pug": "^3.0.2"
     },

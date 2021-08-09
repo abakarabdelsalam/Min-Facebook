@@ -3,6 +3,7 @@ const morgan = require('morgan');
 const path = require('path');
 const app = express();
 const index = require('./routes');
+require('./database');
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
